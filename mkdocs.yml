@@ -36,10 +36,6 @@ nav:
   - Workflow:
       - Export: export.md
       - Import: import.md
-      - Data Structure Mapping: mapping.md
-  - Troubleshooting: troubleshooting.md
-  - FAQ: faq.md
-  - Changelog: changelog.md
 
 plugins:
   - search
