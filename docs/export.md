@@ -15,6 +15,11 @@
 
 ![Export options](./images/UeExportOptions.png)
 
+!!! tip "Good practice"
+    - One DataTable → one sheet tab.
+    - Keep formulas/notes on a separate tab (they'll be erased by Export).
+    - If you change the DataTable structure, do a fresh Export to regenerate headers before editing in Sheets.
+
 ## Example (structs, arrays, maps)
 
 Example row struct definition:
@@ -28,21 +33,3 @@ Example row values in UE:
 After Export, the Google Sheet gets a readable, hierarchical header. You can add new rows under the header and edit values:
 
 ![Export result in Google Sheets](./images/GoogleExampleStruct.png)
-
-### Localized Text (NSLOCTEXT)
-The plugin preserves Unreal’s text format. In Sheets you’ll see `NSLOCTEXT("Package","Key","Source")`.
-
-- In UE:
-  ![Localized text field in UE](./images/UeExampleText.png)
-
-- In Sheets:
-  ![Localized text in Google](./images/GoogleExampleText.png)
-
-!!! tip
-    To change the visible text, edit only the last `"Source"` parameter.  
-    Do not change `Package` and `Key` unless you know your localization pipeline.
-
-## Good practice
-- One DataTable → one sheet tab.
-- Keep formulas/notes on a separate tab (they’ll be erased by Export).
-- If you change the DataTable structure, do a fresh Export to regenerate headers before editing in Sheets.

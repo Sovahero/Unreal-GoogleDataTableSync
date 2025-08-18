@@ -21,7 +21,7 @@ Result inside Unreal:
 ## Saved JSON snapshot
 On each import the plugin saves a JSON file to the Temp File Location (default `Project/Intermediate/GoogleDTSync/<DataTableName>.json`).
 
-!!! note "External diff"
+!!! tip "External diff"
     You can open that JSON in your favorite diff tool.  
     If you want these snapshots tracked in VCS, point the Temp File Location to a tracked folder.
 
