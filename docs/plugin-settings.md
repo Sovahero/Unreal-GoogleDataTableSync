@@ -2,7 +2,7 @@
 
 Open: `Edit → Project Settings → Plugins → Google DataTable Sync`
 
-![Project Settings](./images/UeProjectSettings.png)
+<img width="2152" height="952" alt="UeProjectSettings" src="https://github.com/user-attachments/assets/0608ded8-cb66-4e3d-8f09-15bf0dd5d8cb" />
 
 ## Common options
 - **Sheet Mappings** — for each DataTable (by asset name), store the Google Sheet ID/URL, tab name, and `gid`.
@@ -25,6 +25,8 @@ Open: `Edit → Project Settings → Plugins → Google DataTable Sync`
 Changing these affects how headers are generated and parsed. You should only change these if they conflict with your own data column names.
 
 ## Personal (per‑user)
+File Location (default `Project\Saved\Config\WindowsEditor\EditorPerProjectUserSettings.ini -> [/Script/GoogleDTSync.GoogleDTSyncPersonalSettings]`)
+
 Saved outside version control:
 - Refresh Token (created after first sign‑in)
 - Last used Client ID (to auto‑invalidate tokens on change)
