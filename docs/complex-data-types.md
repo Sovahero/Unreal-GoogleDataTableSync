@@ -17,10 +17,10 @@ The plugin exports rotation from `FTransform` as a quaternion (X, Y, Z, W values
     Quaternions must be **unit quaternions** (length = 1). Arbitrary values like "111" will be normalized by the engine and produce unexpected rotation angles.
 
 **Common Quaternion Values:**
-- No rotation: `X=0, Y=0, Z=0, W=1`
-- 90° Yaw: `X=0, Y=0, Z=0.70710678, W=0.70710678`
-- 90° Pitch: `X=0, Y=0.70710678, Z=0, W=0.70710678`
-- 90° Roll: `X=0.70710678, Y=0, Z=0, W=0.70710678`
+- **No rotation**: `X=0, Y=0, Z=0, W=1`
+- **90° Yaw**: `X=0, Y=0, Z=0.70710678, W=0.70710678`
+- **90° Pitch**: `X=0, Y=0.70710678, Z=0, W=0.70710678`
+- **90° Roll**: `X=0.70710678, Y=0, Z=0, W=0.70710678`
 
 **FRotator (Direct Degrees)**  
 If you use `FRotator` instead of `FTransform`, the plugin exports rotation as Pitch/Yaw/Roll in degrees, making it much more intuitive to edit in Google Sheets.
@@ -44,11 +44,13 @@ The plugin preserves Unreal's localization format completely. In Google Sheets y
 - **Key**: The unique identifier for this text entry  
 - **Source**: The actual display text
 
-- In UE:  
-  ![Localized text field in UE](./images/UeExampleText.png)
+- In UE:
+
+  <img width="707" height="177" alt="UeExampleText" src="https://github.com/user-attachments/assets/e5937901-a201-4ff6-9a2f-2598d580b3d0" />
 
 - In Sheets:  
-  ![Localized text in Google](./images/GoogleExampleText.png)
+  
+  <img width="872" height="281" alt="GoogleExampleText" src="https://github.com/user-attachments/assets/4e4f79bb-4891-4183-b81c-c076df086290" />
 
 !!! tip "Editing localized text"
     To change the visible text, edit only the last `"Source"` parameter.  
