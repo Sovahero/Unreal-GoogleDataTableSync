@@ -1,4 +1,4 @@
-# Google DataTable Sync for Unreal Engine
+# Google DataTable Sync for Unreal Engine 5
 
 **Google DataTable Sync** is a plugin for `Unreal Engine 5` that seamlessly integrates the editor's `DataTables` with Google Sheets. It empowers game designers, level designers, and developers to manage complex game data collaboratively in the cloud and synchronize it back to the editor with a single click, drastically improving the data management workflow.
 

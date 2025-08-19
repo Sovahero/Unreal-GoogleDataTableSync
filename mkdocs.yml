@@ -1,7 +1,5 @@
 site_name: Google DataTable Sync Docs
 site_url: https://sovahero.github.io/Unreal-GoogleDataTableSync/
-repo_url: https://github.com/sovahero/Unreal-GoogleDataTableSync
-repo_name: GitHub
 edit_uri: edit/main/docs/
 
 theme:
@@ -20,13 +18,13 @@ theme:
     - content.action.edit
   palette:
     - scheme: slate
-      primary: teal
+      primary: green
       accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
     - scheme: default
-      primary: teal
+      primary: green
       accent: indigo
       toggle:
         icon: material/weather-night
@@ -41,7 +39,7 @@ extra:
       link: https://your-fab-link.com
       name: Purchase on Fab
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/YOUR_INVITE_CODE
+      link: https://discord.gg/52ZH2AJjCR
       name: Join Discord
     - icon: fontawesome/brands/github
       link: https://github.com/sovahero/Unreal-GoogleDataTableSync
