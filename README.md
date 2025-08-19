@@ -32,7 +32,7 @@ Unlike simple CSV exporters, **Google DataTable Sync** intelligently analyzes th
 
 ## Resources
 
-*   **📖 [Full Documentation (Wiki)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/wiki)** — Step-by-step guides, setup instructions, and advanced usage tips.
-*   **💬 [Join our Discord Server](https://discord.gg/YOUR_INVITE_CODE)** — Get live support, report bugs, and request new features.
+*   **📖 [Full Documentation (Wiki)](https://sovahero.github.io/Unreal-GoogleDataTableSync/quickstart/)** — Step-by-step guides, setup instructions, and advanced usage tips.
+*   **💬 [Join our Discord Server](https://discord.gg/52ZH2AJjCR)** — Get live support, report bugs, and request new features.
 
 ---
