@@ -33,4 +33,4 @@ Unlike simple CSV exporters, **Google DataTable Sync** intelligently analyzes th
 
 ## Resources
 
-*   **💬 [Join our Discord Server](https://discord.gg/YOUR_INVITE_CODE)** — Get live support, report bugs, and request new features.
+*   **💬 [Join Discord Server](https://discord.gg/52ZH2AJjCR)** — Get live support, report bugs, and request new features.
