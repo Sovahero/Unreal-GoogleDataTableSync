@@ -6,6 +6,8 @@ The editor needs permission to access the same private spreadsheets your Google 
 ## Recommended approach
 Use your own Google access for your team (recommended over Demo). This avoids shared usage limits and gives you control.
 
+Find out more on [OAuth Clients](https://support.google.com/cloud/answer/15549257)
+
 ## First‑time entry
 - The first time you click `Configure`, you can paste the `Client ID` and `Client Secret`.
 - Later, you can update them in `Project Settings → Plugins → Google DataTable Sync`.
