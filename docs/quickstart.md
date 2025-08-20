@@ -29,16 +29,14 @@ Enter your team's `Client ID` and `Client Secret` (recommended), or enable Demo 
     Demo mode has shared quota. For production use your own credentials.
     See [Google Authentication](setup-google-oauth.md) for step‑by‑step creation.
 
-After you press "Save and Continue", your browser will open and, upon success, show:
-
-<img width="1015" height="271" alt="AuthSuccessful" src="https://github.com/user-attachments/assets/14e4d17f-1390-4cce-bb27-62d803900bf2" />
-
-
 ## 4) Link the DataTable to a sheet tab
 
 Open the exact target tab in your sheet and copy the browser URL (this ensures the correct `gid`):
 
 <img width="1120" height="490" alt="GoogleCopySheetUrl" src="https://github.com/user-attachments/assets/4bf67bf3-5364-4f7e-ae5a-0e8f649c2a78" />
+
+!!! warning "Sheet Name"
+    To avoid errors, use **Cyrillic** for the Sheet Name.
 
 Paste it in the configuration dialog and type the tab name:
 
@@ -58,6 +56,10 @@ Click `Export`. This generates the header and uploads all rows.
 You'll see the export options dialog:
 
 <img width="723" height="307" alt="UeExportOptions" src="https://github.com/user-attachments/assets/2f6fa577-7af8-4b85-94c6-0c591607d98a" />
+
+After you press "Export", your browser will open and, upon success, show:
+
+<img width="1015" height="271" alt="AuthSuccessful" src="https://github.com/user-attachments/assets/14e4d17f-1390-4cce-bb27-62d803900bf2" />
 
 After export, your Google Sheet will open and contain a structured, readable header.
 
