@@ -71,8 +71,8 @@ This screen is what users will see when the plugin asks for permission to access
 
     <img width="1573" height="825" alt="7-StartAuth" src="https://github.com/user-attachments/assets/23ddc37e-2b92-4220-a932-f1547debecae" />
 
-3.  Choose **External** for the User Type and click **Create**.
-4.  Fill out the required App Information (App name, User support email, Developer contact). You can leave the rest blank. Click **Save and Continue** through the "Scopes" and "Optional Info" sections.
+3.  Fill out the required App Information (App name, User support email, Developer contact). You can leave the rest blank. Click **Save and Continue** through the "Scopes" and "Optional Info" sections.
+4.  Choose **External** for the User Type and click **Create**.
 5.  On the **Test users** step, add the Google accounts of everyone on your team who will use this plugin. Only these users will be able to sign in while the app is in "Testing" mode.
 6.  Once you reach the end of the setup, click the **Create** button on the summary page.
 
@@ -105,9 +105,10 @@ This is the final step, where we generate the actual keys to paste into Unreal E
 With the keys copied, return to Unreal Engine.
 
 1.  Open `Project Settings → Plugins → Google DataTable Sync`.
+2.  Unchek **UseDemoCredentials**.
 2.  Paste the **Client ID** and **Client Secret** into their respective fields.
 3.  Ensure the "Redirect Uri" is set to `http://localhost:8080` (this is the default).
-4.  Open any DataTable and click `Configure`. The plugin will now use your new credentials to prompt for a one-time sign-in in your browser.
+4.  Open any DataTable and click `Export` or `Import`. The plugin will now use your new credentials to prompt for a one-time sign-in in your browser.
 
 ### Step 6 (Optional): Go to Production
 
