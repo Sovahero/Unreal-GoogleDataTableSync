@@ -17,6 +17,7 @@ The plugin exports rotation from `FTransform` as a quaternion (X, Y, Z, W values
     Quaternions must be **unit quaternions** (length = 1). Arbitrary values like "111" will be normalized by the engine and produce unexpected rotation angles.
 
 **Common Quaternion Values:**
+
 - **No rotation**: `X=0, Y=0, Z=0, W=1`
 - **90° Yaw**: `X=0, Y=0, Z=0.70710678, W=0.70710678`
 - **90° Pitch**: `X=0, Y=0.70710678, Z=0, W=0.70710678`
@@ -58,6 +59,7 @@ The plugin preserves Unreal's localization format completely. In Google Sheets y
 
 ### Other Complex Types
 Similar data preservation applies to:
+
 - **Soft Object References**: Full asset paths with package information
 - **Class References**: Blueprint class paths and metadata
 - **Curve References**: Data table and curve asset paths
