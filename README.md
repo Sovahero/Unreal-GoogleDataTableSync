@@ -11,7 +11,7 @@
 
 ---
 
-### ► [🛒 Purchase on the Fab Marketplace](https://your-fab-link.com) ◄
+### ► [🛒 Purchase on the Fab Marketplace](https://www.fab.com/listings/e171a7c9-3629-4dc6-a97e-610705b2bb09) ◄
 
 ---
 

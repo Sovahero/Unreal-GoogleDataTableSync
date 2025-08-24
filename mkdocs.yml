@@ -36,7 +36,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/solid/shopping-cart
-      link: https://your-fab-link.com
+      link: https://www.fab.com/listings/e171a7c9-3629-4dc6-a97e-610705b2bb09
       name: Purchase on Fab
     - icon: fontawesome/brands/discord
       link: https://discord.gg/52ZH2AJjCR
