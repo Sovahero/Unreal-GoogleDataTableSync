@@ -55,6 +55,8 @@ nav:
       - Export: export.md
       - Import: import.md
       - Complex Data Types: complex-data-types.md
+  - Policy:
+      - Privacy Policy: privacy-policy.md
 
 plugins:
   - search
